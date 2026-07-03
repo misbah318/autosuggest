@@ -16,3 +16,15 @@ h1{
 #p2{
     color: blue;
 }
+#nav{
+    text-align: center;
+    background-color: brown;
+    height: 15px;
+    padding-top: 1cm;
+
+}
+#nav a{
+    margin: 0px 7px;
+    text-decoration: none;
+    color: aliceblue;
+}
