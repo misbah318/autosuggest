@@ -34,7 +34,8 @@ h1{
     height: 500px;
     border: 3px solid black;
     align-items: center;
-    margin: 5px;
+    margin: 5px auto;
+    text-align: center;
 }
 #card-img{
     width: 300px;
@@ -52,4 +53,8 @@ img{
 }
 #action{
     text-align: center;
+    
+}
+#button{
+    width:100%;
 }
