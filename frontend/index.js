@@ -14,8 +14,7 @@ const users = [
 let curUserId = 0;
 
 function toggle() {
-    //console.log("frontend");
-    //gets printed browser console
+    
 
     curUserId = (curUserId + 1) % users.length;
 
@@ -38,7 +37,7 @@ function getRandomUser() {
         })
         .then(function(parseData)
         {
-            //console.log(parseData)
+            
             
             let gender=parseData.results[0].gender;
             console.log(gender);
@@ -50,11 +49,11 @@ function getRandomUser() {
 
             let imageUrl=parseData.results[0].picture.large;
 
-            //gender
+            
             document.getElementById("card-gender").innerText=gender;
-            //name
+            
             document.getElementById("card-name").innerText=name;
-            //image
+            
             document.getElementById("img").src=imageUrl;
         })
 }
