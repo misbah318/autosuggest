@@ -1,6 +1,4 @@
 Index.js : 
-
-```
 const users = [
   {
     "name" :"Jane Doe",
