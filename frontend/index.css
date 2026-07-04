@@ -36,6 +36,7 @@ h1{
     align-items: center;
     margin: 5px auto;
     text-align: center;
+    border-radius: 8px;
 }
 #card-img{
     width: 300px;
@@ -46,6 +47,7 @@ h1{
 img{
     width: 300px;
     height: 300px;
+    border-radius: 8px;
     
 }
 #card h1,p{
@@ -55,6 +57,6 @@ img{
     text-align: center;
     
 }
-#button{
+button{
     width: 100%;
 }
