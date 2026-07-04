@@ -17,11 +17,19 @@ function toggle(){
     curUserId=1;
   else
     curUserId=0;
-  // image
   document.getElementById("img").src=users[curUserId].image;
-  // name
   document.getElementById("card-name").innerText=users[curUserId].name;
 }
 
 console.log("Hello from JS");
-```
+function getradndomuser()
+fetch("https ://randomuser.me/api/")
+.then(function(data){
+    return data.json
+})
+.then(function(parsedData){
+    let name=;
+    let gender=;
+    let imageUrl=;
+
+})
